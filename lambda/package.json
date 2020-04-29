@@ -1,0 +1,24 @@
+{
+  "name": "lambda-proxy-contact-form",
+  "version": "1.0.0",
+  "description": "Proxy to Contact Form for sunnyhub.com.br website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "./node_modules/serverless/bin/serverless deploy --verbose --stage prod",
+    "invoke": "./node_modules/serverless/bin/serverless invoke --stage prod --function proxyContactForm --path payload.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcorreao1/sunnyhub.git"
+  },
+  "author": "RafaAudibert <rafaeelaudibert@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcorreao1/sunnyhub/issues"
+  },
+  "homepage": "https://github.com/gcorreao1/sunnyhub#readme",
+  "devDependencies": {
+    "serverless": "^1.68.0"
+  }
+}

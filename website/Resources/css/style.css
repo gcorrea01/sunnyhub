@@ -102,17 +102,23 @@ h3 {
 /* BUTTONS */
 /* ------------------------------------------ */
 
-.btn:link,  /*botao normal*/
+.btn:link,
+/*botao normal*/
 .btn:visited,
-input[type=submit] { /* botao visitado*/
+input[type=submit] {
+    /* botao visitado*/
     display: inline-block;
     padding: 10px 30px;
     margin: 3px;
-    font-weight: 300; /*espessura da linha*/
-    text-decoration: none; /*tira o underline do hyperlink*/
-    border-radius: 200px; /*arredondar a borda*/
+    font-weight: 300;
+    /*espessura da linha*/
+    text-decoration: none;
+    /*tira o underline do hyperlink*/
+    border-radius: 200px;
+    /*arredondar a borda*/
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-    transition: background-color 0.2s, border 0.2s, color 0.2s; /*o efeito ativa depois de 0.2s*/
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    /*o efeito ativa depois de 0.2s*/
 }
 
 
@@ -131,26 +137,34 @@ input[type=submit] {
     color: #e67e22;
 }
 
-.btn:hover, /*quando o mouse fica em cima*/
+.btn:hover,
+/*quando o mouse fica em cima*/
 .btn:active,
 input[type=submit]:hover,
-input[type=submit]:active { /*no momento do click*/
+input[type=submit]:active {
+    /*no momento do click*/
     background-color: #cf6d17;
     color: #fff;
-    
+
 }
 
-.btn-invest:link,  /*botao normal*/
-.btn-invest:visited { /* botao visitado*/
+.btn-invest:link,
+/*botao normal*/
+.btn-invest:visited {
+    /* botao visitado*/
     display: inline-block;
     font-size: 100%;
     padding: 10px 30px;
     margin: 3px;
-    font-weight: 300; /*espessura da linha*/
-    text-decoration: none; /*tira o underline do hyperlink*/
-    border-radius: 200px; /*arredondar a borda*/
+    font-weight: 300;
+    /*espessura da linha*/
+    text-decoration: none;
+    /*tira o underline do hyperlink*/
+    border-radius: 200px;
+    /*arredondar a borda*/
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-    transition: background-color 0.2s, border 0.2s, color 0.2s; /*o efeito ativa depois de 0.2s*/
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    /*o efeito ativa depois de 0.2s*/
 }
 
 
@@ -168,10 +182,12 @@ input[type=submit]:active { /*no momento do click*/
 
 header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(energy_house.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(energy_house.jpg); /*escurecer a imagem*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(energy_house.jpg);
+    /*escurecer a imagem*/
     background-size: cover;
     background-position: center;
-    height: 100vh; /*cobrir toda a janela - 100% da viewport*/
+    height: 100vh;
+    /*cobrir toda a janela - 100% da viewport*/
 }
 
 .section-services {
@@ -179,12 +195,14 @@ header {
 }
 
 .chamada {
-    position: absolute; /*caracteres ficam posicionados de forma absoluta x,y*/
+    position: absolute;
+    /*caracteres ficam posicionados de forma absoluta x,y*/
     width: 1140px;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); /*manha para centralizar*/
+    transform: translate(-50%, -50%);
+    /*manha para centralizar*/
 }
 
 .logo {
@@ -219,7 +237,7 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
-    
+
 }
 
 .icon {
@@ -265,7 +283,6 @@ header {
 .work-steps div {
     color: #e67e22;
     border: 2px solid #e67e22;
-    display: inline-block;
     border-radius: 50%;
     height: 55px;
     width: 55px;
@@ -318,7 +335,7 @@ header {
     opacity: 1;
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
-    
+
 }
 
 /* ------------------------------------------ */
@@ -363,6 +380,29 @@ input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
+#js-form-response {
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+#js-form-response.success {
+    background: #4ab24f;
+}
+
+#js-form-response.error {
+    background: #d33a2c;
+}
+
+#form-submit-button:disabled {
+    background: #d3cec9;
+    border-color: white;
+}
+
 
 /* ------------------------------------------ */
 /* FOOTER */
@@ -381,7 +421,7 @@ footer {
 .footer-nav2 {
     list-style: none;
     float: left;
-    
+
 }
 
 .social-links {
