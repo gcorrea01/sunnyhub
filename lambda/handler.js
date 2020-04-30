@@ -7,10 +7,10 @@ const validateIp = ip => {
 
 const sendEmail = async(formData) => {
   const emailParams = {
-    Source: 'gcorrea@sunnyhub.com.br',
+    Source: 'contato@sunnyhub.com.br',
     ReplyToAddresses: [formData.email],
     Destination: {
-      ToAddresses: ['gcorrea@sunnyhub.com.br'],
+      ToAddresses: ['contato@sunnyhub.com.br'],
     },
     Message: {
       Body: {
