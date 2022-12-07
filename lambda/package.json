@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/gcorreao1/sunnyhub#readme",
   "devDependencies": {
-    "serverless": "^1.68.0"
+    "serverless": "^3.25.1"
   }
 }
